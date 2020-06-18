@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         vk-connect-fucker
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  You will not even note 
+// @author       durov_verni_stenu
+// @grant        none
+// @include      *vk.com*
+// ==/UserScript==
+
+// VK Connect does SASAI
+// add adblock filter for EPIC result:
+// ! 18.06.2020 https://vk.com
+// vk.com##.top_profile_vkconnect_descr
+
+
+function close1(){
+for (var i = 0; i < _message_boxes.length; i++) if (_message_boxes[i]) {_message_boxes[i]._hide(); console.log(i+(i%10==3&&i%100-i%10!=10?'-ье':'-ая')+' попытка пресечена на корню');}
+setTimeout(close1, 500);};
+close1();
+
+document.getElementById("top_profile_vkconnect_right").style.display="none";
