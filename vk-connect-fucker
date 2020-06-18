@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  You will not even note 
-// @author       durov_verni_stenu
+// @author       kofukofu
 // @grant        none
 // @include      *vk.com*
 // ==/UserScript==
